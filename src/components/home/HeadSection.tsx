@@ -4,7 +4,7 @@ import { Button } from "../shared/Button"
 
 const HeadSection = () => {
   return (
-    <div className=" px-5 border rounded-md  " >
+    <div className=" px-5 border rounded-md bg-white " >
 
       {/* <div className="py-11"></div> */}
       <div className=" w-full h-36 mt-5  rounded-t-md overflow-hidden ">
@@ -14,14 +14,14 @@ const HeadSection = () => {
         <img src="/logo.jpeg" className="border-2 border-gray-100 h-16 w-16 " />
       </div>
       <div className=" mt-6">
-        <div className="flex justify-between ">
-          <div className="text-xl font-semibold ">
+        <div className="flex flex-wrap gap-3 justify-between ">
+          <div className=" text-lg lg:text-xl font-semibold ">
             Harvard University: Acceptance Rate, Fees & Courses <span className=" bg-[#FFF7ED] text-[#E37712] px-1.5 py-1 rounded-md text-xs font-semibold ml-2 "> Top 10 </span>
             <div className="text-base text-gray-700/70  ">
               Massachusetts, United States
             </div>
           </div>
-          <div className=" flex gap-2">
+          <div className=" flex gap-2 flex-wrap">
             <Button variant="outline" size="icon" > <StarIcon size="18" /> </Button>
             <Button variant="outline"  > <UsersRound size="18" className="mr-2" /> Join Group </Button>
             <Button  > <UserRoundCheck size="18" className="mr-2" /> Help Me Decide </Button>
@@ -30,7 +30,7 @@ const HeadSection = () => {
       </div>
 
       <hr className="mt-4" />
-      <div className="flex gap-3 mt-3  ">
+      <div className=" hidden lg:flex gap-3 mt-3  ">
 
         {[0, 0, 0, 0, 0, 0, 0, 0, 0, 0].map((_, idx) => {
           return (
