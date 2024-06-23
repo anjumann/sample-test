@@ -12,7 +12,7 @@ const Home = () => {
 
 
 
-            <div className="mt-16 flex flex-wrap-reverse gap-4 ">
+            <div className="mt-16 flex flex-wrap-reverse lg:flex-nowrap gap-4 ">
                 <div className=" lg:w-9/12 rounded-md border  bg-white">
                     <About />
                 </div>
