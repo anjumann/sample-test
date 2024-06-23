@@ -7,8 +7,8 @@ const HeadSection = () => {
     <div className=" px-5 border rounded-md bg-white " >
 
       {/* <div className="py-11"></div> */}
-      <div className=" w-full h-36 mt-5  rounded-t-md overflow-hidden ">
-        <img src="/harvard.jpeg" className=" top-0  overflow-hidden " />
+      <div className=" w-full lg:h-36 overflow-hidden mt-5 rounded-t-md rounded-b-2xl">
+        <img src="/harvard.jpeg" className="  " />
       </div>
       <div className=" p-1 border-2 border-gray-100 w-fit rounded-lg -mt-12 z-50 bg-white ">
         <img src="/logo.jpeg" className="border-2 border-gray-100 h-16 w-16 " />
