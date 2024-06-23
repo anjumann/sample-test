@@ -4,10 +4,13 @@ import { Button } from "../shared/Button"
 
 const HeadSection = () => {
   return (
-    <div className="relative px-5 border rounded-md  " >
+    <div className=" px-5 border rounded-md  " >
 
-      <div className="py-11"></div>
-      <div className=" p-1 border-2 border-gray-100 w-fit rounded-lg ">
+      {/* <div className="py-11"></div> */}
+      <div className=" w-full h-36 mt-5  rounded-t-md overflow-hidden ">
+        <img src="/harvard.jpeg" className=" top-0  overflow-hidden " />
+      </div>
+      <div className=" p-1 border-2 border-gray-100 w-fit rounded-lg -mt-12 z-50 bg-white ">
         <img src="/logo.jpeg" className="border-2 border-gray-100 h-16 w-16 " />
       </div>
       <div className=" mt-6">
@@ -31,7 +34,7 @@ const HeadSection = () => {
 
         {[0, 0, 0, 0, 0, 0, 0, 0, 0, 0].map((_, idx) => {
           return (
-            <span className={`text-sm font-semibold text-gray-700/80 pb-3 border-b-[3px]  ${idx===0 ? "border-[#f19946]" :" border-white hover:border-[#f19946]" } `}  key={idx} >
+            <span className={`text-sm font-semibold text-gray-700/80 pb-3 border-b-[3px]  ${idx === 0 ? "border-[#f19946]" : " border-white hover:border-[#f19946]"} `} key={idx} >
               About
             </span>
           )
